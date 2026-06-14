@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="AutomationSuite" parallel="false">
+
+	<!-- UITests-->
+   <test name="UITests">
+    <classes>
+    		<class name="uiTests.LoginTests"/>
+        <class name="uiTests.TransactionTests"/>
+        <class name="uiTests.AccountTests"/>
+    </classes>
+   </test>
+	<!-- APITests -->
+  <test name="APITests">
+    <classes>
+        <class name="apiTests.UserApiTest"/>
+        <class name="apiTests.PostApiTest"/>
+        <class name="apiTests.CommentApiTest"/>
+    </classes>
+</test>
+
+</suite>

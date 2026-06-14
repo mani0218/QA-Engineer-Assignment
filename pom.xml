@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Assessment</groupId>
+  <artifactId>Avega</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+  <!-- Selenium UI -->
+<dependency>
+<groupId>org.seleniumhq.selenium</groupId>
+<artifactId>selenium-java</artifactId>
+<version>4.11.0</version>
+</dependency>
+
+<!-- TestNG -->
+<dependency>
+<groupId>org.testng</groupId>
+<artifactId>testng</artifactId>
+<version>7.10.2</version>
+</dependency>
+
+<!-- Data Driven -->
+<dependency>
+ <groupId>org.apache.poi</groupId>
+ <artifactId>poi-ooxml</artifactId>
+ <version>5.2.5</version>
+</dependency>
+
+<!-- RestAssured API  -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>5.5.6</version>
+    <scope>compile</scope>
+</dependency>
+
+</dependencies>
+</project>
