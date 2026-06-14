@@ -20,13 +20,5 @@
     </classes>
    </test>
    
-	<!-- APITests -->
-  <test name="APITests">
-    <classes>
-        <class name="apiTests.UserApiTest"/>
-        <class name="apiTests.PostApiTest"/>
-        <class name="apiTests.CommentApiTest"/>
-    </classes>
-</test>
 
 </suite>

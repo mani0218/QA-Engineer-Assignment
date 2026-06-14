@@ -5,8 +5,8 @@
     <classes>
       <class name="uiTests.TransactionTests">
         <methods>
-          <include name="deleteTransactionTest"/>
           <include name="setUp"/>
+          <include name="deleteTransactionTest"/>
         </methods>
       </class> <!-- uiTests.TransactionTests -->
     </classes>
