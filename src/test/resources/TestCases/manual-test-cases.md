@@ -1,20 +1,21 @@
-**UI Testcases
+**UI Testcases**
 
-TC ID: TC01**
-
-
-
-&#x20;   	**Test Description:** Login with valid credentials
+**TC ID: TC01**
 
 
 
-&#x09;**Steps:**  
-	 1) Enter valid email and password
-	 2) Click Login
+&#x20;**Test Description:** Login with valid credentials
 
-  	**Expected Result:** User is redirected to dashboard successfully
 
-  	**Priority:** High
+
+&#x20;**Steps:**  
+&#x09;1) Enter valid email and password
+
+&#x09;2) Click Login
+	 
+&#x09;**Expected Result:** User is redirected to dashboard successfully
+	
+&#x09;**Priority:** High
 
 
 
@@ -22,17 +23,17 @@ TC ID: TC01**
 
 
 
-&#x20; 	**Test Description:** Login with invalid credentials.
+&#x20;**Test Description:** Login with invalid credentials.
 
 
+&#x20;**Steps:**  
+&#x09;1) Enter valid email and invalid password
 
-&#x20;   	**Steps:**  
-	 1) Enter valid email and invalid password
- 	 2) Click Login
+&#x09;2) Click Login
+	 
+&#x20;**Expected Result:** System displays error message: "These credentials do not match our records"
 
-    	**Expected Result:** System displays error message: "These credentials do not match our records"
-
-    	**Priority:** High
+&#x20;**Priority:** High
 
 
 
@@ -95,9 +96,11 @@ TC ID: TC01**
 
 
 &#x20;   	**Steps:**  
- 	1) Launch the application and log in with valid credentials(Email and Password).
- 	2) Navigate to the Accounts → Asset Account → Create Asset Account.
- 	3) Enter a unique account name and account number and all the mandatory details. 
+&#x09;1) Launch the application and log in with valid credentials(Email and Password).
+
+&#x09;2) Navigate to the Accounts → Asset Account → Create Asset Account.
+
+&#x09;3) Enter a unique account name and account number and all the mandatory details. 
 
 &#x20;	4) click Create Account.
 
@@ -105,7 +108,7 @@ TC ID: TC01**
 
 &#x20;	**Expected Result:** A success message appears: "New account <Account Name> stored!" and the account is added to the list.
 
-    	**Priority:** High
+&#x20;  **Priority:** High
 
 
 
@@ -156,13 +159,15 @@ TC ID: TC01**
 &#x09;
 
 &#x20;   	**Steps:**  
- 	1) Launch the application and log in with valid credentials(Email and Password).
- 	2) Navigate to the Accounts  → Asset Account Page → select an existing account → click Actions → Delete.
- 	3) confirm Deletion by clicking delete permanently option.
+&#x09;1) Launch the application and log in with valid credentials(Email and Password).
 
-   	**Expected Result:**  Success alert message appears: Successfully deleted asset account "<Account Name>".
+&#x09;2) Navigate to the Accounts  → Asset Account Page → select an existing account → click Actions → Delete.
 
-  	**Priority:**  High
+&#x09;3) confirm Deletion by clicking delete permanently option.
+
+&#x20;		**Expected Result:**  Success alert message appears: Successfully deleted asset account "<Account Name>".
+
+&#x20;		**Priority:**  High
 
 
 
@@ -314,9 +319,13 @@ TC ID: TC01**
 
 
 
-**API Testcases
 
-TC ID: TC01**
+
+
+
+**API Testcases**
+
+**TC ID: TC01**
 
 
 
